@@ -1,0 +1,156 @@
+.box {
+  color: white;
+  display: flex;
+  background-color: rgb(92, 91, 91);
+  width: 1349px;
+  font-size: 1rem;
+  font-family: monospace;
+}
+
+.poster {
+  border-radius: .4rem;
+  width: 300px;
+  height: 400px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-left: 10rem;
+  margin-right: 4rem;
+  transition: all .2s ease-out;
+  border: 2px solid orange;
+}
+
+
+.year {
+  margin-top: -.8rem;
+  color: orange;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: monospace;
+  /* letter-spacing: .3rem; */
+}
+
+.dis {
+  margin-top: -1rem;
+  font-size: 1.5rem;
+}
+
+.age {
+  font-size: 1.5rem;
+}
+
+.type {
+  font-family: monospace;
+  margin-top: -1.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.poster:hover {
+  scale: 1.1;
+  box-shadow: rgba(255, 255, 255, 0.35) .5rem .5rem .5rem;
+}
+
+.title {
+  margin-top: 10rem;
+}
+
+.paragrapgh {
+  margin-top: -1rem;
+  width: 40rem;
+}
+
+.text-info {
+  transition: all .2s ease-out;
+  margin-top: -4rem;
+}
+
+.text-info:hover {
+  scale: .9;
+}
+
+.rating span {
+  font-size: 1.3rem;
+  color: orange;
+  font-family: monospace;
+}
+
+nav {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-data {
+  display: flex;
+}
+
+.img img{
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+
+.input input {
+  height: 2.5rem;
+  width: 15rem;
+  margin-right: 7rem;
+  transition: all .2s ease-out;
+}
+
+.input .fa-magnifying-glass {
+  margin-left: -9.5rem;
+  height: .2rem;
+  width: .5rem;
+  margin-top: 1rem;
+  position: absolute;
+  color: black;
+}
+
+.input input:hover {
+  border: 2px solid orange;
+  scale: 1.1;
+}
+
+
+nav {
+  background-color: red;
+  font-size: .5rem;
+  display: flex;
+  width: 216%;
+  margin-bottom: 4rem;
+}
+
+.input {
+  height: 2rem;
+  width: 20rem;
+}
+
+button {
+  height: 2.4rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img {
+  margin-bottom: 2rem;
+  height: fit-content;
+  width: fit-content;
+}
+
+.key {
+  display: flex;
+}
+
+.likes {
+  border-radius: 1rem;
+  font-size: 2rem;
+  width: fit-content;
+  height: fit-content;
+  padding: .2rem
+}
